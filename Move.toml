@@ -1,0 +1,13 @@
+[package]
+name = 'aptocracy-program-library'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'mainnet'
+subdir = 'aptos-move/framework/aptos-framework'
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'devnet'
+subdir = 'aptos-move/framework/aptos-token'
+[addresses]
+org_lib_addr = 'bbcc3e9c977dcbe744342c5d4d95fc811d1a27548f8309d4b6587306686a954d'
